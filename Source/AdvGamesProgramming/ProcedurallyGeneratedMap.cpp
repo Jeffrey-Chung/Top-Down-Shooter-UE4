@@ -33,7 +33,7 @@ AProcedurallyGeneratedMap::AProcedurallyGeneratedMap()
 
 	PerlinScale = 1000.0f;
 	PerlinRoughness = 0.1f;
-	bRegenerateMap = false;
+	bRegenerateMap = true;
 	
 	//Using constructor helpers to find the object needed and to be able to access it from C++ instead of manunally adding it on the details panel
 	static ConstructorHelpers::FObjectFinder<UMaterialInterface> SnowMat(TEXT("MaterialInstanceConstant'/Game/Materials/PCGMaterials/Winter/SnowMaterialInstance.SnowMaterialInstance'"));
