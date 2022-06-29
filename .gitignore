@@ -73,4 +73,6 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-*.uasset
+T_TreeBark_D.uasset
+T_TreeBark_N.uasset
+T_RevaCliff_D.uasset
